@@ -1,0 +1,45 @@
+body,html{
+  margin:0;
+  padding: 0;
+}
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(179, 243, 60, 0.397);
+}
+
+.question{
+  border-radius: 0.5rem;
+  height: 400px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(67, 134, 192);
+  color: rgb(208, 255, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+.option{
+  padding: 3rem;
+  border-top: 1px solid #ccc;
+}
+
+.ullist{
+  padding:0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap:1rem;
+  list-style-type: none;
+}
+
+
